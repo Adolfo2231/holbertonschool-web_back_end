@@ -14,7 +14,6 @@ A curated set of Python examples showcasing **type annotations**, **static typin
 - [🧪 Run Type Checking](#-run-type-checking)
 - [📘 Learn More](#-learn-more)
 - [👨‍💻 Author](#-author)
-- [📜 License](#-license)
 
 ---
 
