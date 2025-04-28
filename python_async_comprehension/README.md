@@ -11,7 +11,6 @@ A curated set of Python examples demonstrating asynchronous programming patterns
 - 🛠️ Requirements
 - 📁 Project Structure
 - 🚀 Getting Started
-- 🧪 How to Run
 - 📘 Learn More
 - 👨‍💻 Author
 
@@ -75,9 +74,6 @@ holbertonschool-web_back_end/
     ├── 0-async_generator.py ➔ 🔄 Async generator yielding random floats
     ├── 1-async_comprehension.py ➔ 📅 Async comprehension collecting values
     ├── 2-measure_runtime.py ➔ ⏱️ Runtime measurement with parallel tasks
-    ├── 0-main.py ➔ 🔹 Tester for 0-async_generator
-    ├── 1-main.py ➔ 🔹 Tester for 1-async_comprehension
-    ├── 2-main.py ➔ 🔹 Tester for 2-measure_runtime
     └── README.md ➔ 📘 Project documentation
 ```
 
@@ -99,33 +95,6 @@ cd holbertonschool-web_back_end/python_async_comprehension
 ```bash
 pycodestyle .
 ```
-
-4. Execute the test files:
-
-```bash
-python3 0-main.py
-python3 1-main.py
-python3 2-main.py
-```
-
----
-
-## 🧪 How to Run
-
-- **Test Async Generator:**
-  ```bash
-  python3 0-main.py
-  ```
-- **Test Async Comprehension:**
-  ```bash
-  python3 1-main.py
-  ```
-- **Measure Runtime with Parallel Execution:**
-  ```bash
-  python3 2-main.py
-  ```
-
----
 
 ## 📘 Learn More
 
