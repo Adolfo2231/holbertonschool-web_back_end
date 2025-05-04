@@ -2,13 +2,9 @@
 """
 Module for finding schools by topic
 """
-from typing import List, Dict, Any
-from pymongo.collection import Collection
 
 
-def schools_by_topic(
-    mongo_collection: Collection, topic: str
-) -> List[Dict[str, Any]]:
+def schools_by_topic(mongo_collection, topic):
     """
     Returns the list of schools having a specific topic
     Args:

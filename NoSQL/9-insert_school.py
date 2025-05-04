@@ -2,12 +2,9 @@
 """
 Module for inserting a document in a collection
 """
-from typing import Dict, Any
-from pymongo.collection import Collection
-from pymongo.results import InsertOneResult
 
 
-def insert_school(mongo_collection: Collection, **kwargs) -> str:
+def insert_school(mongo_collection, **kwargs):
     """
     Inserts a new document in a collection based on kwargs
     Args:
@@ -16,5 +13,5 @@ def insert_school(mongo_collection: Collection, **kwargs) -> str:
     Returns:
         The new _id
     """
-    result: InsertOneResult = mongo_collection.insert_one(kwargs)
+    result = mongo_collection.insert_one(kwargs)
     return result.inserted_id
