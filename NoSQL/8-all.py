@@ -14,7 +14,6 @@ def list_all(mongo_collection: Collection) -> List[Dict[str, Any]]:
     Returns:
         List of all documents or empty list if no documents
     """
-    documents = []
-    for doc in mongo_collection.find():
-        documents.append(doc)
-    return documents
+    if mongo_collection is None:
+        return []
+    return list(mongo_collection.find())
